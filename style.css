@@ -1,0 +1,38 @@
+#titulo-principal {
+    display: block;
+    width: 100%;
+    color: yellow;
+    background-color: red;
+    text-align: start;
+}
+
+.titulo {
+    display: inline;
+    width: fit-content;
+    color: red;
+}
+
+.titulo {
+    color: blue;
+}
+
+/* 
+Hay estilos que aplican a los textos 
+Se heredan
+    font-size
+    text-align
+    color
+    text-decoration
+    font-weight
+*/
+
+/* 
+Hay estilos que aplican a las cajas 
+No se heredan
+    background-color
+    display
+    width
+    margin
+    padding
+    box-shadow
+*/

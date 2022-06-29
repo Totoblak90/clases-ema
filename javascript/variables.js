@@ -12,7 +12,7 @@ var nombre3 = 'Perro'
 
 
 
-// nombre = 'Tobias' No se puede reasignarle un valor a una constante;
+// nombre = 'Tobias' No puedo reasignarle un valor a una constante;
 nombre2 = 'Tobias' // Como es una variable creada con "let" si le puedo cambiar el valor;
 
 /**
@@ -22,37 +22,36 @@ nombre2 = 'Tobias' // Como es una variable creada con "let" si le puedo cambiar 
  * Valor (Lo que está despues del igual y es el valor que yo le asigno a esa variable. Puede ser cualquier tipo de dato que acepte javascript)
  */
 
- const variableConOtraVariableAdentro = nombre;
- const numero = 1;
- const string = 'Un texto';
- const boolean = true;
- const array = ['Hola', 1, true];
- const object = {
+const variableConOtraVariableAdentro = nombre;
+const numero = 1;
+const string = 'Un texto';
+const boolean = true;
+const array = ['Hola', 1, true];
+const object = {
     nombre: 'Ema'
- }
- const funcion = function(saludo) {
+}
+const funcion = function (saludo) {
     console.log(saludo)
- }
+}
 
- const texto = 'alkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiqur';
-const alumnosFacultad = [
-    {
+const texto = 'alkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiquralkdjsalksjdlksajdlkasjdkljaskdjaksjdoiewuroiqur';
+const alumnosFacultad = [{
         nombre: 'Marcos',
         edad: 25,
     },
     {
         nombre: 'Juana',
         edad: 19,
-    },    {
+    }, {
         nombre: 'Ema',
         edad: 19,
-    },    {
+    }, {
         nombre: 'Tobias',
         edad: 32,
-    },    {
+    }, {
         nombre: 'Juan',
         edad: 31,
-    },    {
+    }, {
         nombre: 'Mariana',
         edad: 26,
     },
