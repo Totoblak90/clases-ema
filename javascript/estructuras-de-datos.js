@@ -16,29 +16,29 @@ null; // Null (valor nulo/ sin valor)
 
 // Operaciones;
 // Sumar, restar, multiplicar, dividir, ver el su módulo y comparar (<, >, <=, >=, ==);
-console.log(
-    // Operaciones matemáticas
-    1 + 2,
-    3 - 5,
-    3 * 6,
-    9 / 3,
-    // Operaciones de comparación
-    3 > 5,
-    9 < 81,
-    5 === 5,
-    100 === 23,
-    3 >= 2,
-    105 <= 12,
-    5 === '5',
-    5 == '5'
-)
+// console.log(
+//     // Operaciones matemáticas
+//     1 + 2,
+//     3 - 5,
+//     3 * 6,
+//     9 / 3,
+//     // Operaciones de comparación
+//     3 > 5,
+//     9 < 81,
+//     5 === 5,
+//     100 === 23,
+//     3 >= 2,
+//     105 <= 12,
+//     5 === '5',
+//     5 == '5'
+// )
 
 // Cuando hay un solo igual se llama asignación;
 const resultado1 = 500;
 const resultado2 = 300;
 
 if (resultado1 > resultado2) {
-    console.log('Gano el jugador uno')
+    // console.log('Gano el jugador uno')
 }
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
@@ -51,21 +51,21 @@ if (resultado1 > resultado2) {
 const unString = "Soy un texto. 12387129837 +968686";
 
 const unaOracionConcatenada = "Esto" + " " + "es" + " " + "un" + " " + "string" + " " + "concatenado";
-console.log(unaOracionConcatenada)
+// console.log(unaOracionConcatenada)
 
 if ("Hola" === "Hola") {
     console.log('Saludo')
 }
 
-console.log("Ema".length);
-console.log(unaOracionConcatenada.length);
+// console.log("Ema".length);
+// console.log(unaOracionConcatenada.length);
 
 if ("ema".length < unaOracionConcatenada.length) {
-    console.log('hace algo')
+    // console.log('hace algo')
 }
 
 const subString = unaOracionConcatenada.substring(18, unaOracionConcatenada.length);
-console.log(subString)
+// console.log(subString)
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 // END STRINGS (TEXTO)
@@ -94,7 +94,7 @@ for (let i = 0; i < listaDeSuper.length; i++) {
     listaDeSuper[i] = listaDeSuper[i] + " comprado";
 }
 
-console.log(listaDeSuper)
+// console.log(listaDeSuper)
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 // END Listas (Arrays)
@@ -115,10 +115,42 @@ const Estudiante = {
     sinDefinir: undefined
 }
 
-console.log(
-    Estudiante.nombre, Estudiante.edad, Estudiante.dni
-)
+// console.log(
+//     Estudiante.nombre, Estudiante.edad, Estudiante.dni
+// )
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 // END Objetos
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+// FETCH
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+// fetch(url)
+//     .then(function (response) {
+//         return response.json()
+//     })
+//     .then(function (data) {
+//         console.log(data);
+//     })
+//     .catch(function (error) {
+//         console.log("Error: " + error);
+//     })
+
+// fetch('https://rickandmortyapi.com/api/character')
+//     .then(function (response) {
+//         console.log(response, 'response')
+//         return response.json()
+//     })
+//     .then(function (dataJson) {
+//         console.log(data)
+//     })
+//     .catch(function (error) {
+//         console.log('Error', error)
+//     })
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+// END FETCH
 // ---------------------------------------------------------------------------------------------------------------------------------------
